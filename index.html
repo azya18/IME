@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="img/Fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>IME</title>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal__block">
+            <form>
+                <label class="modal__label">
+                    <span class="modal__title">Оставьте номер телефона и мы Вам позвоним!</span>
+                    <input class="modal__inp" placeholder="+998" type="tel"
+                        pattern=" /^998(9[012345789]|6[125679]|7[01234569])[0-9]{7}$/" required>
+                    <img class="modal__close-btn" src="img/ModalClose.svg" alt="ModalClose">
+                </label>
+                <button class="modal__btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <header class="header ">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="nav__content">
+                    <ul class="nav__list">
+                        <li><a href="#services" class="nav__link">Услуги</a></li>
+                        <li><a href="#about" class="nav__link">Преимущества</a></li>
+                        <li><a href="#projects" class="nav__link">Наши работы</a></li>
+                        <li><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="nav__content-media">
+                    <a href="#" class="nav__logo-media">
+                        <img src="img/footer__logo.png" alt="footer__logo" class="footer__logo">
+                    </a>
+                    <div class="media__dropdown">
+                        <button class="dropdown__icon">
+                            <img src="img/dropdown_icon.svg" alt="dropdown_icon">
+                        </button>
+                        <ul class="nav__list-media">
+                            <li><a href="#services" class="nav__link-media border__top-radius">Услуги</a></li>
+                            <li><a href="#about" class="nav__link-media">Преимущества</a></li>
+                            <li><a href="#projects" class="nav__link-media">Наши работы</a></li>
+                            <li><a href="#contacts" class="nav__link-media border__bottom-radius">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="header__intro section__mb">
+            <div class="container">
+                <div class="header__intro-content">
+                    <div class="header__intro-left">
+                        <h1 class="header__intro-title _anim-items _anim-no-hide">Разработка сайтов любой сложности за
+                            короткие сроки</h1>
+                        <p class="header__intro-desc _anim-items _anim-no-hide">Оставь номер и мы позвоним в течении 5
+                            минут!</p>
+                        <button class="header__btn _anim-items  _anim-no-hide">Оставить заявку</button>
+                    </div>
+                    <a href="#" class="logo">
+                        <video class="logo__vid" src="img/logo.mp4" preload="auto" no-controls autoplay loop
+                            muted></video>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="services section__mb" id="services">
+            <div class="container">
+                <ul class="services__list">
+                    <li>
+                        <button class="services__link" data-tab="#tab_1">Готовые сайты</button>
+                    </li>
+                    <li>
+                        <button class="services__link" data-tab="#tab_2">Сайты под ключ</button>
+                    </li>
+                    <li>
+                        <button class="services__link" data-tab="#tab_3">Графика</button>
+                    </li>
+                    <li>
+                        <button class="services__link" data-tab="#tab_4">Телеграм боты</button>
+                    </li>
+                </ul>
+
+                <div class="services__content" id="tab_1">
+                    <div class="services__left">
+                        <p class="services__desc">
+                            Готовые решения - это шаблоны, которые состоят из готовых блоков. Вы просто загружаете в
+                            эти
+                            блоки
+                            свою
+                            информацию и получаете в итоге готовый сайт. На данный момент готовых решений в более 70.
+                            <br>
+                            После покупки готового решения, Вы можете использовать его в своих целях. Шаблон сайта
+                            включает
+                            в
+                            себя:
+                        </p>
+                        <ul class="services__row">
+                            <li>- Полностью готовый дизайн сайта </li>
+                            <li>- HTML и CSS код</li>
+                            <li>- Дополнительные модули </li>
+                        </ul>
+                        <p class="services__price">
+                            Стоимость от 4.000.000 сум</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide1.png" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide2.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide3.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide4.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide5.jpg" alt="slider__img">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/prevArrow.svg" alt="prevArrow"></div>
+                        <div class="swiper-button-next"><img src="img/nextArrow.svg" alt="nextArrow"></div>
+                    </div>
+                </div>
+                <div class="services__content" id="tab_2">
+                    <div class="services__left">
+                        <p class="services__desc">
+                            Сайт под ключ — это веб-ресурс, который разработчик делает с нуля, участвуя во всех этапах
+                            его создания.Иначе говоря, заказчик озвучивает свои цели, пожелания к дизайну и интерфейсу и
+                            мы оформляем их в продающий сайт.Комплексный подход. Сайт под ключ создаёт целая команда:  маркетолог, дизайнер, верстальщик и программист. Маркетолог продумывает рекламную часть. Дизайнер следит, чтобы оформление соответствовало духу времени. Верстальщик делает сайт под ключ логичным и удобным. Программист пишет оптимальный код сайта. Перед стартом работы специалисты обмениваются ключевыми данными и формируют общее видение.
+                        </p>
+                        <p class="services__price">
+                            Стоимость от 5.000.000 сум</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide1.png" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide2.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide3.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide4.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/slide5.jpg" alt="slider__img">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/prevArrow.svg" alt="prevArrow"></div>
+                        <div class="swiper-button-next"><img src="img/nextArrow.svg" alt="nextArrow"></div>
+                    </div>
+                </div>
+                <div class="services__content" id="tab_3">
+                    <div class="services__left">
+                        <p class="services__desc">
+                            Графика для сайта — цифровые изображения в различных веб форматах (jpg, png, gif, swf), оптимизированные для загрузки через Интернет. Это могут быть:
+                        </p>
+                        <ul class="services__row">
+                            <li>- иллюстрации на основе векторной графики </li>
+                            <li>- рисованные растровые изображения</li>
+                            <li>- фотографии и коллажи на их основе</li>
+                        </ul>
+                        <p class="services__price">
+                            Стоимость от 2.000.000 сум</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="slider__img" src="img/eskiz1.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/eskiz2.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/eskiz3.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/eskiz4.jpg" alt="slider__img">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/prevArrow.svg" alt="prevArrow"></div>
+                        <div class="swiper-button-next"><img src="img/nextArrow.svg" alt="nextArrow"></div>
+                    </div>
+                </div>
+                <div class="services__content" id="tab_4">
+                    <div class="services__left">
+                        <p class="services__desc">
+                            Боты могут выполнять операции под руководством пользователя, который вводит текстовые команды. Взаимодействие между человеком и машиной осуществляется по принципу «вопрос-ответ» после того, как будет нажата кнопка «Старт». Посредством этих виртуальных помощников можно, к примеру, узнать прогноз погоды или заказать суши.<br/>
+                            <br>
+                            Перечислим основные достоинства ботов в Телеграме:
+                        </p>
+                        <ul class="services__row">
+                            <li>-работают круглосуточно, 7 дней в неделю; </li>
+                            <li>- быстро отвечают</li>
+                            <li>- ими удобно пользоваться, так как выбор текстовых команд ни у кого не вызывает затруднений;</li>
+                        </ul>
+                        <p class="services__price">
+                            Стоимость от 400.000 сум</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="slider__img" src="img/bot1.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/bot2.jpg" alt="slider__img">
+                            </div>
+                            <div class="swiper-slide"><img class="slider__img" src="img/bot3.jpg" alt="slider__img">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/prevArrow.svg" alt="prevArrow"></div>
+                        <div class="swiper-button-next"><img src="img/nextArrow.svg" alt="nextArrow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about " id="about">
+            <div class="container">
+                <div class="about__wrapper _anim-items ">
+                    <div class="about__item">
+                        <span class="number">3+</span>
+                        <p class="text">лет на рынке</p>
+                    </div>
+                    <div class="about__item">
+                        <span class="number">100+</span>
+                        <p class="text">готовых решений</p>
+                    </div>
+                    <div class="about__item">
+                        <span class="number">30+</span>
+                        <p class="text">довольных клиентов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="projects" id="projects">
+            <div class="container">
+                <h3 class="projects__title">Наши работы</h3>
+                <div class="projects__wrapper">
+                    <div class="projects__item">
+                        <a href="https://www.smartassessment.uz/" target="_blank" class="projects__link"><img
+                                class="project__img" src="img/project1.png" alt="project__img"></a>
+                    </div>
+                    <div class="projects__item">
+                        <a href="https://alltest.uz/" target="_blank" class="projects__link"><img class="project__img"
+                                src="img/project2.png" alt="project__img"></a>
+                    </div>
+                    <div class="projects__item">
+                        <a href="https://avlod.media/ru/" target="_blank" class="projects__link"><img
+                                class="project__img" src="img/project3.png" alt="project__img"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__content">
+                <a href="tel:+998995319909" class="footer__link">+998 99 5319909</a>
+                <a href="#" class="footer__logo">
+                    <img src="img/footer__logo.png" alt="footer__logo" class="footer__logo">
+                </a>
+                <div class="footer__contacts">
+                    <a href="#" class="footer__contact"><img src="img/inst.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/fc.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/ytb.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/tg.svg" alt="footer__contact-img"></a>
+                </div>
+            </div>
+            <div class="footer__content-media">
+                <a href="#" class="footer__logo">
+                    <img src="img/footer__logo.png" alt="footer__logo" class="footer__logo">
+                </a>
+                <a href="tel:+998995319909" class="footer__link">+998 99 5319909</a>
+                <div class="footer__contacts">
+                    <a href="#" class="footer__contact"><img src="img/inst.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/fc.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/ytb.svg" alt="footer__contact-img"></a>
+                    <a href="#" class="footer__contact"><img src="img/tg.svg" alt="footer__contact-img"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

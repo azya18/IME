@@ -1,0 +1,393 @@
+@media(max-width:1200px) {
+    .header__intro-title {
+        font-size: 39px;
+    }
+
+    .header__intro-desc {
+        font-size: 23px;
+    }
+
+    .services__content {
+        gap: 36px;
+    }
+}
+
+@media(max-width:992px) {
+    .header__intro-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .header__intro-desc {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 19px;
+    }
+
+    .services__desc,
+    .services__row,
+    .services__price {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .swiper {
+        width: 390px;
+        height: 356px;
+    }
+
+    .logo__vid {
+        width: 420px;
+        height: 257px;
+    }
+
+    .services__link {
+        padding: 13px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .about__item {
+        padding: 8px 0 18px;
+        gap: 6px;
+    }
+
+    .text {
+        font-size: 18.5143px;
+        line-height: 23px;
+    }
+
+    .number {
+        font-size: 49.3714px;
+        line-height: 60px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+
+    .footer__link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer__contacts {
+        gap: 15px;
+    }
+
+    .footer__contact img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer__logo {
+        width: 124px;
+        height: 76px;
+    }
+
+    .modal__block {
+        max-width: 550px;
+        padding: 37px 20px 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .header {
+        margin-bottom: 82px;
+    }
+
+    .header__intro-title {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 15px;
+    }
+
+    .header__intro-desc {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .header__btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .services__link {
+        padding: 12px 7px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .section__mb {
+        margin-bottom: 50px;
+    }
+
+    .services__content {
+        gap: 15px;
+    }
+
+    .services__desc,
+    .services__row,
+    .services__price {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .swiper {
+        width: 310px;
+        height: 283px;
+    }
+
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .projects__title {
+        margin-bottom: 34px;
+    }
+
+    .projects__wrapper {
+        gap: 20px;
+    }
+
+    .projects {
+        margin-bottom: 34px;
+    }
+
+    .footer {
+        padding: 37px 0 35px;
+    }
+
+    .about__wrapper {
+        gap: 10px;
+    }
+
+    .number {
+        font-size: 38.8876px;
+        line-height: 47px;
+    }
+
+    .about__item {
+        padding: 6px 0 15px;
+        gap: 5px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .footer__link {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer__logo {
+        width: 121px;
+        height: 73px;
+    }
+
+    .footer__contacts {
+        gap: 10px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .logo__vid {
+        width: 320px;
+        height: 194px;
+    }
+
+    .header__intro-content {
+        gap: 20px;
+    }
+
+    .nav__list {
+        gap: 31px;
+    }
+
+    .modal__block {
+        max-width: 400px;
+    }
+
+    .modal__title {
+        font-size: 20px;
+    }
+
+    .modal__inp {
+        font-size: 20px;
+    }
+
+    .modal__btn {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__content-media {
+        display: flex;
+    }
+
+    .nav__content {
+        display: none;
+    }
+
+    .logo__vid {
+        display: none;
+    }
+
+    .header__intro-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .header__intro-desc {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .header__btn {
+        width: 232px;
+        margin: auto;
+    }
+
+    .section__mb {
+        margin-bottom: 0;
+    }
+
+    .header__intro {
+        margin-bottom: 27px;
+    }
+
+    .header {
+        padding-top: 12px;
+    }
+
+    .services__link {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .services__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 25px;
+    }
+
+    .services__content {
+        flex-direction: column-reverse;
+        margin-bottom: 39px;
+    }
+
+    .services__left {
+        width: 100%;
+    }
+
+    .services__desc,
+    .services__row,
+    .services__price {
+        text-align: center;
+    }
+
+    .about__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(30%);
+    }
+
+    .about__item {
+        max-width: 309px;
+        width: 100%;
+    }
+
+    .about {
+        margin-bottom: 26px;
+    }
+
+    .projects__title {
+        margin-bottom: 23px;
+    }
+
+    .projects__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project__img {
+        object-fit: fill;
+        max-height: 308px;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+    }
+
+    .footer__content {
+        display: none;
+    }
+
+    .footer__content-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .header__intro-content {
+        gap: 0;
+    }
+}
+
+@media (max-width:400px) {
+    .header__intro-title {
+        font-size: 30px;
+    }
+
+    .header__intro-desc {
+        font-size: 14px;
+    }
+
+    .services__list {
+        grid-template-columns: 1fr;
+    }
+
+    .services__link {
+        padding: 15px;
+    }
+
+    .modal__block {
+        max-width: 300px;
+    }
+
+    .modal__btn {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .modal__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .modal__inp {
+        font-size: 16px;
+    }
+
+    .swiper {
+        width: 250px;
+        height: 250px;
+    }
+    .projects__title{
+        font-size: 35px;
+    }
+}
